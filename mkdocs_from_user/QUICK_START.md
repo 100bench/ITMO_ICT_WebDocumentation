@@ -88,3 +88,4 @@ mkdocs serve
 2. GitHub Pages настроен на GitHub Actions
 3. Скриншоты имеют правильные имена
 4. Ветка называется `main` или `master`
+
