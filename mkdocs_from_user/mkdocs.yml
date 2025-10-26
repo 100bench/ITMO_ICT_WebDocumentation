@@ -1,0 +1,30 @@
+site_name: Отчет по сетям
+site_description: Публичная версия лабораторной работы по работе с сокетами
+site_url: https://USER.github.io/REPO/
+
+theme:
+  name: material
+  language: ru
+
+nav:
+  - Главная: index.md
+  - Лабораторная 1: Lr1.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - footnotes
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+extra_css:
+  - extra.css
+
+repo_url: https://github.com/USER/REPO
+repo_name: USER/REPO
+edit_uri: ""
+
+extra:
+  generator: false
