@@ -1,0 +1,30 @@
+site_name: Отчет по сетям
+site_description: Публичная версия лабораторной работы по работе с сокетами
+site_url: https://mackb.github.io/ITMO_ICT_WebDocumentation/
+
+theme:
+  name: material
+  language: ru
+
+nav:
+  - Главная: index.md
+  - Лабораторная 1: Lr1.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - footnotes
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+extra_css:
+  - extra.css
+
+repo_url: https://github.com/100bench/ITMO_ICT_WebDocumentation
+repo_name: 100bench/ITMO_ICT_WebDocumentation
+edit_uri: ""
+
+extra:
+  generator: false
